@@ -12,13 +12,13 @@ namespace Yahtzee_UI
     class GameCard
     {
 
-        public int aces = 0, twos = 0, threes = 0, fours = 0, fives = 0, sixes = -1;
-        public int threeOfKind = 0, fourOfKind = 0;
+        public int aces = -1, twos = -1, threes = -1, fours = -1, fives = -1, sixes = -1;
+        public int threeOfKind = -1, fourOfKind = -1;
         public FullHouse fullHouse;
         public SmallStreet smallStreet;
         public LargeStreet largeStreet;
         public Yahtzee yahtzee;
-        public int chance = -0;
+        public int chance = -1;
         public int bonus = 35;
         public int bonusLimit = 63;
 
