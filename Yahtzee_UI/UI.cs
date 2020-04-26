@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿// Copyright (c) 2020 Janos Falke
 using System;
+=======
+﻿using System;
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +21,7 @@ namespace Yahtzee_UI
 
         private List<GameCard> gameCards;
         private int nbGames = 4;
+<<<<<<< HEAD
         private int nbGamesMax = 4;
         private int nbGamesLastGame = 0;
         private List<bool> keepDice;
@@ -25,14 +30,24 @@ namespace Yahtzee_UI
         private ScoreForm sf;
         private int gameNumber = 1;
         private int nbDice = 5;        
+=======
+        private List<bool> keepDice;
+        private List<int> dice;
+        private List<string> choicesNames;
+        private int nbDice = 5;
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
         private bool started = false;
 
         public UI()
         {
+<<<<<<< HEAD
             
             sf = new ScoreForm();
             InitializeComponent();
 
+=======
+            InitializeComponent();
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             rollDiceButton.Text = "Roll the dice (" + (maxAttemps - rollCounter) + " attemps left)";
 
             nbGamesSelect.SelectedItem = nbGamesSelect.Items[0]; // set first one as selected
@@ -90,9 +105,15 @@ namespace Yahtzee_UI
             choicesNames.Add("Chance");
         }
 
+<<<<<<< HEAD
         private Label [,] getLabels()
         {
             Label[,] labels = new Label[nbGames, 20];
+=======
+        private void printGameCardText()
+        {
+            Label[,] labels = new Label[nbGames,19];
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
 
             //init labels Game1
             if (nbGames >= 1)
@@ -116,9 +137,14 @@ namespace Yahtzee_UI
                 labels[0, 16] = totalLowerValueGame1;
                 labels[0, 17] = totalUpperValueGame1;
                 labels[0, 18] = grandTotalValueGame1;
+<<<<<<< HEAD
                 labels[0, 19] = game1Label;
 
                 if (nbGames >= 2)
+=======
+                
+                if(nbGames >= 2)
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
                 {
                     labels[1, 0] = acesValueGame2;
                     labels[1, 1] = twosValueGame2;
@@ -139,7 +165,10 @@ namespace Yahtzee_UI
                     labels[1, 16] = totalLowerValueGame2;
                     labels[1, 17] = totalUpperValueGame2;
                     labels[1, 18] = grandTotalValueGame2;
+<<<<<<< HEAD
                     labels[1, 19] = game2Label;
+=======
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
 
                     if (nbGames >= 3)
                     {
@@ -162,7 +191,10 @@ namespace Yahtzee_UI
                         labels[2, 16] = totalLowerValueGame3;
                         labels[2, 17] = totalUpperValueGame3;
                         labels[2, 18] = grandTotalValueGame3;
+<<<<<<< HEAD
                         labels[2, 19] = game3Label;
+=======
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
 
                         if (nbGames >= 4)
                         {
@@ -185,12 +217,16 @@ namespace Yahtzee_UI
                             labels[3, 16] = totalLowerValueGame4;
                             labels[3, 17] = totalUpperValueGame4;
                             labels[3, 18] = grandTotalValueGame4;
+<<<<<<< HEAD
                             labels[3, 19] = game4Label;
+=======
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
                         }
                     }
                 }
             }
 
+<<<<<<< HEAD
             return labels;
         }
 
@@ -368,6 +404,41 @@ namespace Yahtzee_UI
             gamecardUpperSection.SuspendLayout();
             gamecardLowerSection.SuspendLayout();
 
+=======
+
+            for (int i = 0; i < labels.GetLength(0); i++)
+            {
+                labels[i, 0].Text = (gameCards[i].aces == -2) ? "-" : (gameCards[i].aces == -1) ? "0" : "" + gameCards[i].aces;
+                labels[i, 1].Text = (gameCards[i].twos == -2) ? "-" : (gameCards[i].twos == -1) ? "0" : "" + gameCards[i].twos;
+                labels[i, 2].Text = (gameCards[i].threes == -2) ? "-" : (gameCards[i].threes == -1) ? "0" : "" + gameCards[i].threes;
+                labels[i, 3].Text = (gameCards[i].fours == -2) ? "-" : (gameCards[i].fours == -1) ? "0" : "" + gameCards[i].fours;
+                labels[i, 4].Text = (gameCards[i].fives == -2) ? "-" : (gameCards[i].fives == -1) ? "0" : "" + gameCards[i].fives;
+                labels[i, 5].Text = (gameCards[i].sixes == -2) ? "-" : (gameCards[i].sixes == -1) ? "0" : "" + gameCards[i].sixes;
+                labels[i, 6].Text = "" + gameCards[i].totalScore();
+
+              
+                labels[i, 7].Text = (gameCards[i].totalScore() >= gameCards[i].bonusLimit ? "" + gameCards[i].bonus : 
+                    (gameCards[i].aces != -1 && gameCards[i].twos != -1 && gameCards[i].threes != -1 && gameCards[i].fours != -1 && gameCards[i].fives != -1 && gameCards[i].sixes != -1) ? "-" : "0");
+                labels[i, 8].Text = "" + gameCards[i].totalUpper();
+
+                labels[i, 9].Text = (gameCards[i].threeOfKind == -2) ? "-" : (gameCards[i].threeOfKind == -1) ? "0" : "" + gameCards[i].threeOfKind;
+                labels[i, 10].Text = (gameCards[i].fourOfKind == -2) ? "-" : (gameCards[i].fourOfKind == -1) ? "0" : "" + gameCards[i].fourOfKind;
+                labels[i, 11].Text = gameCards[i].fullHouse.ToString();
+                labels[i, 12].Text = gameCards[i].smallStreet.ToString();
+                labels[i, 13].Text = gameCards[i].largeStreet.ToString();
+                labels[i, 14].Text = gameCards[i].yahtzee.ToString();
+                labels[i, 15].Text = (gameCards[i].chance == -2) ? "-" : (gameCards[i].chance == -1) ? "0" : "" + gameCards[i].chance;
+                labels[i, 16].Text = "" + gameCards[i].totalLower();
+                labels[i, 17].Text = "" + gameCards[i].totalUpper();
+                labels[i, 18].Text = "" + (gameCards[i].totalLower() + gameCards[i].totalUpper());
+
+            }
+            
+        }
+
+        private void addGamesUIDesigner()
+        {
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // gamecardUpperSection
             // 
@@ -375,6 +446,7 @@ namespace Yahtzee_UI
             this.gamecardLowerSection.ColumnCount = 2 + nbGames;
 
 
+<<<<<<< HEAD
             Label[,] labels = getInactiveLabels();
 
             for (int i = 0; i < labels.GetLength(0); i++)
@@ -402,6 +474,8 @@ namespace Yahtzee_UI
                 }
             }
 
+=======
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             for (int i = 0; i < nbGames; i++)
             {
                 //add columns
@@ -412,8 +486,11 @@ namespace Yahtzee_UI
 
             if (nbGames >= 1)
             {
+<<<<<<< HEAD
               
 
+=======
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
                 this.gamecardUpperSection.Controls.Add(this.game1Label, 2, 0);
                 this.gamecardUpperSection.Controls.Add(this.acesValueGame1, 2, 1);
                 this.gamecardUpperSection.Controls.Add(this.twosValueGame1, 2, 2);
@@ -515,6 +592,7 @@ namespace Yahtzee_UI
             this.gamecardUpperSection.Size = new System.Drawing.Size(205 + (nbGames * (62 - (nbGames * 2))), 212);
             this.gamecardLowerSection.Size = new System.Drawing.Size(205 + (nbGames * (62 - (nbGames * 2))), 237);
 
+<<<<<<< HEAD
 
             if (!started)
             {
@@ -529,6 +607,14 @@ namespace Yahtzee_UI
 
                 gamecardUpperSection.ResumeLayout();
                 gamecardLowerSection.ResumeLayout();
+=======
+            this.gamecardUpperSection.Visible = true;
+            this.gamecardLowerSection.Visible = true;
+
+            if (!started)
+            {
+                gameCardLoadPicture.Visible = false;
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             }
         }
 
@@ -666,6 +752,14 @@ namespace Yahtzee_UI
 
         }
 
+<<<<<<< HEAD
+=======
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -861,6 +955,7 @@ namespace Yahtzee_UI
             return total;
         }
 
+<<<<<<< HEAD
         private int getUpperSectionAvgPoints()
         {
             int totalUpperScore = 0;
@@ -883,6 +978,8 @@ namespace Yahtzee_UI
             return totalLowerScore / gameCards.Count;
         }
 
+=======
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
         private int getAvgPoints()
         {
             return getTotalScore()/nbGames;
@@ -892,7 +989,11 @@ namespace Yahtzee_UI
         {
             //reload GameCard
 
+<<<<<<< HEAD
             printGameCardText();// --> nur das laden was benötigt wird
+=======
+            printGameCardText();
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
 
             //check if it is the end of the game
 
@@ -910,6 +1011,7 @@ namespace Yahtzee_UI
 
             if (gameEnded)
             {
+<<<<<<< HEAD
                 int yahtzeeCounter = 0;
                 for (int j = 0; j < gameCards.Count; j++)
                 {
@@ -919,6 +1021,10 @@ namespace Yahtzee_UI
                 string yahtzeeMsg = (yahtzeeCounter == 1) ? "Congratulations to your Yahtzee!\n" : (yahtzeeCounter == 0) ? "" : "Congratulations to your " + yahtzeeCounter + " Yahtzees!\n";
 
                 string message = "Your Total Score was *** " + getTotalScore() + " *** (average of " + getAvgPoints() + " pts.)\n" + yahtzeeMsg + "\nDo you want to play another round ?";
+=======
+
+                string message = "Your Total Score was *** " + getTotalScore() + " *** (average of " + getAvgPoints() + " pts.)\nDo you want to play another round ?";
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
                 string caption = "END OF THE GAME";
                 var result = MessageBox.Show(message, caption,
                                              MessageBoxButtons.YesNo,
@@ -936,6 +1042,7 @@ namespace Yahtzee_UI
                     gamecardLowerSection.Visible = false;
                     gameCardLoadPicture.Visible = true;
 
+<<<<<<< HEAD
                     Label[,] labels = getLabels();
 
                     for (int k = 0; k < labels.GetLength(0); k++)
@@ -953,10 +1060,13 @@ namespace Yahtzee_UI
                         }
                     }
 
+=======
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
                     nbGamesSelect.Enabled = true;
                     startButton.Enabled = true;
                     rollDiceButton.Enabled = false;
                     started = false;
+<<<<<<< HEAD
                     nbGamesLastGame = nbGames;
 
                     //create new score entry
@@ -965,6 +1075,8 @@ namespace Yahtzee_UI
                     addScoreToScoreList(newScore);
 
                     gameNumber++; //next game with new id 
+=======
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
                 }
             } 
             else
@@ -987,6 +1099,7 @@ namespace Yahtzee_UI
             
         }
 
+<<<<<<< HEAD
         private void addScoreToScoreList(Score score)
         {
             System.Windows.Forms.ListViewItem listViewItem = new System.Windows.Forms.ListViewItem(new string[] {
@@ -1000,6 +1113,8 @@ namespace Yahtzee_UI
             sf.scoreListView.Items.Add(listViewItem);
         }
 
+=======
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
         private void label4_Click(object sender, EventArgs e)
         {
 
@@ -1031,6 +1146,10 @@ namespace Yahtzee_UI
 
         private void gameCardPanel_Paint(object sender, PaintEventArgs e)
         {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
         }
 
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
@@ -1043,9 +1162,17 @@ namespace Yahtzee_UI
 
         private void startButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             gameCardLoadPicture.Image = Image.FromFile("imgs/loading.gif");
             nbGamesSelect.Enabled = false;
             startButton.Enabled = false;
+=======
+            nbGamesSelect.Enabled = false;
+            startButton.Enabled = false;
+            rollDiceButton.Enabled = true;
+            rollDiceButton.Text = "Roll the dice (" + (maxAttemps - rollCounter) + " attemps left)";
+            gameCardLoadPicture.Visible = false;
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
 
             startGame();
 
@@ -1053,6 +1180,7 @@ namespace Yahtzee_UI
 
         private void gamecardLowerSection_Paint(object sender, PaintEventArgs e)
         {
+<<<<<<< HEAD
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -1063,6 +1191,9 @@ namespace Yahtzee_UI
         private void button1_Click_1(object sender, EventArgs e)
         {
             sf.ShowDialog();
+=======
+
+>>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
         }
     }
 
