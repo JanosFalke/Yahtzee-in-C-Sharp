@@ -79,9 +79,19 @@ The UI was created with Windows-Form-App (.NET Framework).
 
 ![End of the game](https://i.ibb.co/0ZDm3mb/end.png)
 
+> Your total score, average score and number of yahtzees are shown (more details in the scoreboard) 
+
+> You can decide if you want to continue to play (a new round)
+
+> Or if you want to quit the application
+
+
 ### Scoreboard
 
 ![Scoreboard](https://i.ibb.co/s1sNWgc/score.png)
+
+> Multiple statistics: Game number, number of games, average of upper section points, average of lower section points, average points and total points
+
 
 ## How to play
 
