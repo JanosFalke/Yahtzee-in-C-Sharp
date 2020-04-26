@@ -1,14 +1,8 @@
-<<<<<<< HEAD
 ﻿using System.Windows.Controls;
 
 namespace Yahtzee_UI
 {
     partial class UI 
-=======
-﻿namespace Yahtzee_UI
-{
-    partial class UI
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
     {
 
         public int rollCounter;
@@ -189,10 +183,7 @@ namespace Yahtzee_UI
             this.nbGamesSelect = new System.Windows.Forms.ComboBox();
             this.nbGamesPanel = new System.Windows.Forms.Panel();
             this.startButton = new System.Windows.Forms.Button();
-<<<<<<< HEAD
             this.scoreButton = new System.Windows.Forms.Button();
-=======
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             ((System.ComponentModel.ISupportInitialize)(this.dicePicture2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dicePicture5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dicePicture4)).BeginInit();
@@ -283,11 +274,7 @@ namespace Yahtzee_UI
             // 
             // gameCardLoadPicture
             // 
-<<<<<<< HEAD
             this.gameCardLoadPicture.Location = new System.Drawing.Point(0, 0);
-=======
-            this.gameCardLoadPicture.Location = new System.Drawing.Point(3, 0);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.gameCardLoadPicture.Name = "gameCardLoadPicture";
             this.gameCardLoadPicture.Size = new System.Drawing.Size(467, 477);
             this.gameCardLoadPicture.TabIndex = 3;
@@ -299,11 +286,7 @@ namespace Yahtzee_UI
             this.gamecardLowerSection.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.gamecardLowerSection.ColumnCount = 2;
             this.gamecardLowerSection.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 115F));
-<<<<<<< HEAD
             this.gamecardLowerSection.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-=======
-            this.gamecardLowerSection.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93F));
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.gamecardLowerSection.Controls.Add(this.grandTotalDesc, 1, 10);
             this.gamecardLowerSection.Controls.Add(this.threeOfKindTitle, 0, 1);
             this.gamecardLowerSection.Controls.Add(this.fourOfKindTitle, 0, 2);
@@ -349,11 +332,7 @@ namespace Yahtzee_UI
             // 
             this.grandTotalDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.grandTotalDesc.AutoSize = true;
-<<<<<<< HEAD
             this.grandTotalDesc.Location = new System.Drawing.Point(135, 215);
-=======
-            this.grandTotalDesc.Location = new System.Drawing.Point(132, 215);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.grandTotalDesc.Name = "grandTotalDesc";
             this.grandTotalDesc.Size = new System.Drawing.Size(63, 16);
             this.grandTotalDesc.TabIndex = 2;
@@ -394,11 +373,7 @@ namespace Yahtzee_UI
             this.threeOfKindDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.threeOfKindDesc.AutoSize = true;
             this.threeOfKindDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.threeOfKindDesc.Location = new System.Drawing.Point(130, 27);
-=======
-            this.threeOfKindDesc.Location = new System.Drawing.Point(126, 27);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.threeOfKindDesc.Name = "threeOfKindDesc";
             this.threeOfKindDesc.Size = new System.Drawing.Size(74, 10);
             this.threeOfKindDesc.TabIndex = 5;
@@ -409,11 +384,7 @@ namespace Yahtzee_UI
             this.fourOfKindDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.fourOfKindDesc.AutoSize = true;
             this.fourOfKindDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.fourOfKindDesc.Location = new System.Drawing.Point(130, 48);
-=======
-            this.fourOfKindDesc.Location = new System.Drawing.Point(126, 48);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.fourOfKindDesc.Name = "fourOfKindDesc";
             this.fourOfKindDesc.Size = new System.Drawing.Size(74, 10);
             this.fourOfKindDesc.TabIndex = 6;
@@ -423,17 +394,10 @@ namespace Yahtzee_UI
             // 
             this.fullHouseDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.fullHouseDesc.AutoSize = true;
-<<<<<<< HEAD
             this.fullHouseDesc.Font = new System.Drawing.Font("Roboto Light", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fullHouseDesc.Location = new System.Drawing.Point(144, 68);
             this.fullHouseDesc.Name = "fullHouseDesc";
             this.fullHouseDesc.Size = new System.Drawing.Size(45, 11);
-=======
-            this.fullHouseDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fullHouseDesc.Location = new System.Drawing.Point(140, 69);
-            this.fullHouseDesc.Name = "fullHouseDesc";
-            this.fullHouseDesc.Size = new System.Drawing.Size(46, 10);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.fullHouseDesc.TabIndex = 7;
             this.fullHouseDesc.Text = "SCORE 25";
             // 
@@ -461,19 +425,11 @@ namespace Yahtzee_UI
             // 
             this.smallStreetDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.smallStreetDesc.AutoSize = true;
-<<<<<<< HEAD
             this.smallStreetDesc.Font = new System.Drawing.Font("Roboto Light", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.smallStreetDesc.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.smallStreetDesc.Location = new System.Drawing.Point(144, 89);
             this.smallStreetDesc.Name = "smallStreetDesc";
             this.smallStreetDesc.Size = new System.Drawing.Size(45, 11);
-=======
-            this.smallStreetDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.smallStreetDesc.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.smallStreetDesc.Location = new System.Drawing.Point(140, 90);
-            this.smallStreetDesc.Name = "smallStreetDesc";
-            this.smallStreetDesc.Size = new System.Drawing.Size(46, 10);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.smallStreetDesc.TabIndex = 11;
             this.smallStreetDesc.Text = "SCORE 30";
             // 
@@ -481,17 +437,10 @@ namespace Yahtzee_UI
             // 
             this.largeStreetDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.largeStreetDesc.AutoSize = true;
-<<<<<<< HEAD
             this.largeStreetDesc.Font = new System.Drawing.Font("Roboto Light", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.largeStreetDesc.Location = new System.Drawing.Point(144, 110);
             this.largeStreetDesc.Name = "largeStreetDesc";
             this.largeStreetDesc.Size = new System.Drawing.Size(45, 11);
-=======
-            this.largeStreetDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.largeStreetDesc.Location = new System.Drawing.Point(140, 111);
-            this.largeStreetDesc.Name = "largeStreetDesc";
-            this.largeStreetDesc.Size = new System.Drawing.Size(46, 10);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.largeStreetDesc.TabIndex = 12;
             this.largeStreetDesc.Text = "SCORE 40";
             // 
@@ -509,17 +458,10 @@ namespace Yahtzee_UI
             // 
             this.yahtzeeDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.yahtzeeDesc.AutoSize = true;
-<<<<<<< HEAD
             this.yahtzeeDesc.Font = new System.Drawing.Font("Roboto Light", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.yahtzeeDesc.Location = new System.Drawing.Point(144, 131);
             this.yahtzeeDesc.Name = "yahtzeeDesc";
             this.yahtzeeDesc.Size = new System.Drawing.Size(45, 11);
-=======
-            this.yahtzeeDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yahtzeeDesc.Location = new System.Drawing.Point(140, 132);
-            this.yahtzeeDesc.Name = "yahtzeeDesc";
-            this.yahtzeeDesc.Size = new System.Drawing.Size(46, 10);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.yahtzeeDesc.TabIndex = 17;
             this.yahtzeeDesc.Text = "SCORE 50";
             // 
@@ -538,11 +480,7 @@ namespace Yahtzee_UI
             this.chanceDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.chanceDesc.AutoSize = true;
             this.chanceDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.chanceDesc.Location = new System.Drawing.Point(139, 153);
-=======
-            this.chanceDesc.Location = new System.Drawing.Point(135, 153);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.chanceDesc.Name = "chanceDesc";
             this.chanceDesc.Size = new System.Drawing.Size(56, 10);
             this.chanceDesc.TabIndex = 20;
@@ -583,11 +521,7 @@ namespace Yahtzee_UI
             // 
             this.totalLowerDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.totalLowerDesc.AutoSize = true;
-<<<<<<< HEAD
             this.totalLowerDesc.Location = new System.Drawing.Point(135, 171);
-=======
-            this.totalLowerDesc.Location = new System.Drawing.Point(132, 171);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.totalLowerDesc.Name = "totalLowerDesc";
             this.totalLowerDesc.Size = new System.Drawing.Size(63, 16);
             this.totalLowerDesc.TabIndex = 24;
@@ -597,11 +531,7 @@ namespace Yahtzee_UI
             // 
             this.totalUpperDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.totalUpperDesc.AutoSize = true;
-<<<<<<< HEAD
             this.totalUpperDesc.Location = new System.Drawing.Point(135, 192);
-=======
-            this.totalUpperDesc.Location = new System.Drawing.Point(132, 192);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.totalUpperDesc.Name = "totalUpperDesc";
             this.totalUpperDesc.Size = new System.Drawing.Size(63, 16);
             this.totalUpperDesc.TabIndex = 25;
@@ -624,11 +554,7 @@ namespace Yahtzee_UI
             this.gamecardUpperSection.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.gamecardUpperSection.ColumnCount = 2;
             this.gamecardUpperSection.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 115F));
-<<<<<<< HEAD
             this.gamecardUpperSection.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-=======
-            this.gamecardUpperSection.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93F));
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.gamecardUpperSection.Controls.Add(this.twosTitle, 0, 2);
             this.gamecardUpperSection.Controls.Add(this.foursTitle, 0, 4);
             this.gamecardUpperSection.Controls.Add(this.fivesTitle, 0, 5);
@@ -767,11 +693,7 @@ namespace Yahtzee_UI
             this.acesDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.acesDesc.AutoSize = true;
             this.acesDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.acesDesc.Location = new System.Drawing.Point(131, 27);
-=======
-            this.acesDesc.Location = new System.Drawing.Point(128, 27);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.acesDesc.Name = "acesDesc";
             this.acesDesc.Size = new System.Drawing.Size(71, 10);
             this.acesDesc.TabIndex = 18;
@@ -782,11 +704,7 @@ namespace Yahtzee_UI
             this.twosDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.twosDesc.AutoSize = true;
             this.twosDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.twosDesc.Location = new System.Drawing.Point(131, 48);
-=======
-            this.twosDesc.Location = new System.Drawing.Point(128, 48);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.twosDesc.Name = "twosDesc";
             this.twosDesc.Size = new System.Drawing.Size(71, 10);
             this.twosDesc.TabIndex = 19;
@@ -797,11 +715,7 @@ namespace Yahtzee_UI
             this.threesDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.threesDesc.AutoSize = true;
             this.threesDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.threesDesc.Location = new System.Drawing.Point(128, 69);
-=======
-            this.threesDesc.Location = new System.Drawing.Point(124, 69);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.threesDesc.Name = "threesDesc";
             this.threesDesc.Size = new System.Drawing.Size(78, 10);
             this.threesDesc.TabIndex = 20;
@@ -812,11 +726,7 @@ namespace Yahtzee_UI
             this.foursDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.foursDesc.AutoSize = true;
             this.foursDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.foursDesc.Location = new System.Drawing.Point(130, 90);
-=======
-            this.foursDesc.Location = new System.Drawing.Point(127, 90);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.foursDesc.Name = "foursDesc";
             this.foursDesc.Size = new System.Drawing.Size(73, 10);
             this.foursDesc.TabIndex = 21;
@@ -827,11 +737,7 @@ namespace Yahtzee_UI
             this.fivesDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.fivesDesc.AutoSize = true;
             this.fivesDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.fivesDesc.Location = new System.Drawing.Point(131, 111);
-=======
-            this.fivesDesc.Location = new System.Drawing.Point(128, 111);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.fivesDesc.Name = "fivesDesc";
             this.fivesDesc.Size = new System.Drawing.Size(71, 10);
             this.fivesDesc.TabIndex = 22;
@@ -842,11 +748,7 @@ namespace Yahtzee_UI
             this.sixesDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.sixesDesc.AutoSize = true;
             this.sixesDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.sixesDesc.Location = new System.Drawing.Point(131, 132);
-=======
-            this.sixesDesc.Location = new System.Drawing.Point(128, 132);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.sixesDesc.Name = "sixesDesc";
             this.sixesDesc.Size = new System.Drawing.Size(71, 10);
             this.sixesDesc.TabIndex = 23;
@@ -856,11 +758,7 @@ namespace Yahtzee_UI
             // 
             this.totalScoreDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.totalScoreDesc.AutoSize = true;
-<<<<<<< HEAD
             this.totalScoreDesc.Location = new System.Drawing.Point(135, 150);
-=======
-            this.totalScoreDesc.Location = new System.Drawing.Point(132, 150);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.totalScoreDesc.Name = "totalScoreDesc";
             this.totalScoreDesc.Size = new System.Drawing.Size(63, 16);
             this.totalScoreDesc.TabIndex = 24;
@@ -870,17 +768,10 @@ namespace Yahtzee_UI
             // 
             this.bonusDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.bonusDesc.AutoSize = true;
-<<<<<<< HEAD
             this.bonusDesc.Font = new System.Drawing.Font("Roboto Light", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bonusDesc.Location = new System.Drawing.Point(144, 173);
             this.bonusDesc.Name = "bonusDesc";
             this.bonusDesc.Size = new System.Drawing.Size(45, 11);
-=======
-            this.bonusDesc.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bonusDesc.Location = new System.Drawing.Point(140, 174);
-            this.bonusDesc.Name = "bonusDesc";
-            this.bonusDesc.Size = new System.Drawing.Size(46, 10);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.bonusDesc.TabIndex = 25;
             this.bonusDesc.Text = "SCORE 35";
             // 
@@ -888,11 +779,7 @@ namespace Yahtzee_UI
             // 
             this.totalDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.totalDesc.AutoSize = true;
-<<<<<<< HEAD
             this.totalDesc.Location = new System.Drawing.Point(135, 192);
-=======
-            this.totalDesc.Location = new System.Drawing.Point(132, 192);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.totalDesc.Name = "totalDesc";
             this.totalDesc.Size = new System.Drawing.Size(63, 16);
             this.totalDesc.TabIndex = 26;
@@ -903,11 +790,7 @@ namespace Yahtzee_UI
             this.howToScoreLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.howToScoreLabel.AutoSize = true;
             this.howToScoreLabel.Font = new System.Drawing.Font("Raleway", 6.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.howToScoreLabel.Location = new System.Drawing.Point(129, 6);
-=======
-            this.howToScoreLabel.Location = new System.Drawing.Point(126, 6);
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.howToScoreLabel.Name = "howToScoreLabel";
             this.howToScoreLabel.Size = new System.Drawing.Size(75, 10);
             this.howToScoreLabel.TabIndex = 28;
@@ -932,10 +815,6 @@ namespace Yahtzee_UI
             this.threeOfKindValueGame1.Name = "threeOfKindValueGame1";
             this.threeOfKindValueGame1.Size = new System.Drawing.Size(16, 17);
             this.threeOfKindValueGame1.TabIndex = 2;
-<<<<<<< HEAD
-=======
-            this.threeOfKindValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // threeOfKindValueGame2
             // 
@@ -945,10 +824,6 @@ namespace Yahtzee_UI
             this.threeOfKindValueGame2.Name = "threeOfKindValueGame2";
             this.threeOfKindValueGame2.Size = new System.Drawing.Size(16, 17);
             this.threeOfKindValueGame2.TabIndex = 2;
-<<<<<<< HEAD
-=======
-            this.threeOfKindValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // threeOfKindValueGame3
             // 
@@ -958,10 +833,6 @@ namespace Yahtzee_UI
             this.threeOfKindValueGame3.Name = "threeOfKindValueGame3";
             this.threeOfKindValueGame3.Size = new System.Drawing.Size(16, 17);
             this.threeOfKindValueGame3.TabIndex = 2;
-<<<<<<< HEAD
-=======
-            this.threeOfKindValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // threeOfKindValueGame4
             // 
@@ -971,10 +842,6 @@ namespace Yahtzee_UI
             this.threeOfKindValueGame4.Name = "threeOfKindValueGame4";
             this.threeOfKindValueGame4.Size = new System.Drawing.Size(16, 17);
             this.threeOfKindValueGame4.TabIndex = 2;
-<<<<<<< HEAD
-=======
-            this.threeOfKindValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fourOfKindValueGame1
             // 
@@ -984,10 +851,6 @@ namespace Yahtzee_UI
             this.fourOfKindValueGame1.Name = "fourOfKindValueGame1";
             this.fourOfKindValueGame1.Size = new System.Drawing.Size(16, 17);
             this.fourOfKindValueGame1.TabIndex = 3;
-<<<<<<< HEAD
-=======
-            this.fourOfKindValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fourOfKindValueGame2
             // 
@@ -997,10 +860,6 @@ namespace Yahtzee_UI
             this.fourOfKindValueGame2.Name = "fourOfKindValueGame2";
             this.fourOfKindValueGame2.Size = new System.Drawing.Size(16, 17);
             this.fourOfKindValueGame2.TabIndex = 3;
-<<<<<<< HEAD
-=======
-            this.fourOfKindValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fourOfKindValueGame3
             // 
@@ -1010,10 +869,6 @@ namespace Yahtzee_UI
             this.fourOfKindValueGame3.Name = "fourOfKindValueGame3";
             this.fourOfKindValueGame3.Size = new System.Drawing.Size(16, 17);
             this.fourOfKindValueGame3.TabIndex = 3;
-<<<<<<< HEAD
-=======
-            this.fourOfKindValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fourOfKindValueGame4
             // 
@@ -1023,10 +878,6 @@ namespace Yahtzee_UI
             this.fourOfKindValueGame4.Name = "fourOfKindValueGame4";
             this.fourOfKindValueGame4.Size = new System.Drawing.Size(16, 17);
             this.fourOfKindValueGame4.TabIndex = 3;
-<<<<<<< HEAD
-=======
-            this.fourOfKindValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fullHouseValueGame1
             // 
@@ -1036,10 +887,6 @@ namespace Yahtzee_UI
             this.fullHouseValueGame1.Name = "fullHouseValueGame1";
             this.fullHouseValueGame1.Size = new System.Drawing.Size(16, 17);
             this.fullHouseValueGame1.TabIndex = 8;
-<<<<<<< HEAD
-=======
-            this.fullHouseValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fullHouseValueGame2
             // 
@@ -1049,10 +896,6 @@ namespace Yahtzee_UI
             this.fullHouseValueGame2.Name = "fullHouseValueGame2";
             this.fullHouseValueGame2.Size = new System.Drawing.Size(16, 17);
             this.fullHouseValueGame2.TabIndex = 8;
-<<<<<<< HEAD
-=======
-            this.fullHouseValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fullHouseValueGame3
             // 
@@ -1062,10 +905,6 @@ namespace Yahtzee_UI
             this.fullHouseValueGame3.Name = "fullHouseValueGame3";
             this.fullHouseValueGame3.Size = new System.Drawing.Size(16, 17);
             this.fullHouseValueGame3.TabIndex = 8;
-<<<<<<< HEAD
-=======
-            this.fullHouseValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fullHouseValueGame4
             // 
@@ -1075,10 +914,6 @@ namespace Yahtzee_UI
             this.fullHouseValueGame4.Name = "fullHouseValueGame4";
             this.fullHouseValueGame4.Size = new System.Drawing.Size(16, 17);
             this.fullHouseValueGame4.TabIndex = 8;
-<<<<<<< HEAD
-=======
-            this.fullHouseValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // smallStreetValueGame1
             // 
@@ -1088,10 +923,6 @@ namespace Yahtzee_UI
             this.smallStreetValueGame1.Name = "smallStreetValueGame1";
             this.smallStreetValueGame1.Size = new System.Drawing.Size(16, 17);
             this.smallStreetValueGame1.TabIndex = 13;
-<<<<<<< HEAD
-=======
-            this.smallStreetValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // smallStreetValueGame2
             // 
@@ -1101,10 +932,6 @@ namespace Yahtzee_UI
             this.smallStreetValueGame2.Name = "smallStreetValueGame2";
             this.smallStreetValueGame2.Size = new System.Drawing.Size(16, 17);
             this.smallStreetValueGame2.TabIndex = 13;
-<<<<<<< HEAD
-=======
-            this.smallStreetValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // smallStreetValueGame3
             // 
@@ -1114,10 +941,6 @@ namespace Yahtzee_UI
             this.smallStreetValueGame3.Name = "smallStreetValueGame3";
             this.smallStreetValueGame3.Size = new System.Drawing.Size(16, 17);
             this.smallStreetValueGame3.TabIndex = 13;
-<<<<<<< HEAD
-=======
-            this.smallStreetValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // smallStreetValueGame4
             // 
@@ -1127,10 +950,6 @@ namespace Yahtzee_UI
             this.smallStreetValueGame4.Name = "smallStreetValueGame4";
             this.smallStreetValueGame4.Size = new System.Drawing.Size(16, 17);
             this.smallStreetValueGame4.TabIndex = 13;
-<<<<<<< HEAD
-=======
-            this.smallStreetValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // largeStreetValueGame1
             // 
@@ -1140,10 +959,6 @@ namespace Yahtzee_UI
             this.largeStreetValueGame1.Name = "largeStreetValueGame1";
             this.largeStreetValueGame1.Size = new System.Drawing.Size(16, 17);
             this.largeStreetValueGame1.TabIndex = 14;
-<<<<<<< HEAD
-=======
-            this.largeStreetValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // largeStreetValueGame2
             // 
@@ -1153,10 +968,6 @@ namespace Yahtzee_UI
             this.largeStreetValueGame2.Name = "largeStreetValueGame2";
             this.largeStreetValueGame2.Size = new System.Drawing.Size(16, 17);
             this.largeStreetValueGame2.TabIndex = 14;
-<<<<<<< HEAD
-=======
-            this.largeStreetValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // largeStreetValueGame3
             // 
@@ -1166,10 +977,6 @@ namespace Yahtzee_UI
             this.largeStreetValueGame3.Name = "largeStreetValueGame3";
             this.largeStreetValueGame3.Size = new System.Drawing.Size(16, 17);
             this.largeStreetValueGame3.TabIndex = 14;
-<<<<<<< HEAD
-=======
-            this.largeStreetValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // largeStreetValueGame4
             // 
@@ -1179,10 +986,6 @@ namespace Yahtzee_UI
             this.largeStreetValueGame4.Name = "largeStreetValueGame4";
             this.largeStreetValueGame4.Size = new System.Drawing.Size(16, 17);
             this.largeStreetValueGame4.TabIndex = 14;
-<<<<<<< HEAD
-=======
-            this.largeStreetValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // yahtzeeValueGame1
             // 
@@ -1192,10 +995,6 @@ namespace Yahtzee_UI
             this.yahtzeeValueGame1.Name = "yahtzeeValueGame1";
             this.yahtzeeValueGame1.Size = new System.Drawing.Size(16, 17);
             this.yahtzeeValueGame1.TabIndex = 16;
-<<<<<<< HEAD
-=======
-            this.yahtzeeValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // yahtzeeValueGame2
             // 
@@ -1205,10 +1004,6 @@ namespace Yahtzee_UI
             this.yahtzeeValueGame2.Name = "yahtzeeValueGame2";
             this.yahtzeeValueGame2.Size = new System.Drawing.Size(16, 17);
             this.yahtzeeValueGame2.TabIndex = 16;
-<<<<<<< HEAD
-=======
-            this.yahtzeeValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // yahtzeeValueGame3
             // 
@@ -1218,10 +1013,6 @@ namespace Yahtzee_UI
             this.yahtzeeValueGame3.Name = "yahtzeeValueGame3";
             this.yahtzeeValueGame3.Size = new System.Drawing.Size(16, 17);
             this.yahtzeeValueGame3.TabIndex = 16;
-<<<<<<< HEAD
-=======
-            this.yahtzeeValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // yahtzeeValueGame4
             // 
@@ -1231,10 +1022,6 @@ namespace Yahtzee_UI
             this.yahtzeeValueGame4.Name = "yahtzeeValueGame4";
             this.yahtzeeValueGame4.Size = new System.Drawing.Size(16, 17);
             this.yahtzeeValueGame4.TabIndex = 16;
-<<<<<<< HEAD
-=======
-            this.yahtzeeValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // chanceValueGame1
             // 
@@ -1244,10 +1031,6 @@ namespace Yahtzee_UI
             this.chanceValueGame1.Name = "chanceValueGame1";
             this.chanceValueGame1.Size = new System.Drawing.Size(16, 17);
             this.chanceValueGame1.TabIndex = 19;
-<<<<<<< HEAD
-=======
-            this.chanceValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // chanceValueGame2
             // 
@@ -1257,10 +1040,6 @@ namespace Yahtzee_UI
             this.chanceValueGame2.Name = "chanceValueGame2";
             this.chanceValueGame2.Size = new System.Drawing.Size(16, 17);
             this.chanceValueGame2.TabIndex = 19;
-<<<<<<< HEAD
-=======
-            this.chanceValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // chanceValueGame3
             // 
@@ -1270,10 +1049,6 @@ namespace Yahtzee_UI
             this.chanceValueGame3.Name = "chanceValueGame3";
             this.chanceValueGame3.Size = new System.Drawing.Size(16, 17);
             this.chanceValueGame3.TabIndex = 19;
-<<<<<<< HEAD
-=======
-            this.chanceValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // chanceValueGame4
             // 
@@ -1283,10 +1058,6 @@ namespace Yahtzee_UI
             this.chanceValueGame4.Name = "chanceValueGame4";
             this.chanceValueGame4.Size = new System.Drawing.Size(16, 17);
             this.chanceValueGame4.TabIndex = 19;
-<<<<<<< HEAD
-=======
-            this.chanceValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // totalLowerValueGame1
             // 
@@ -1372,10 +1143,7 @@ namespace Yahtzee_UI
             // 
             this.grandTotalValueGame1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.grandTotalValueGame1.AutoSize = true;
-<<<<<<< HEAD
             this.grandTotalValueGame1.Font = new System.Drawing.Font("Raleway", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-=======
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.grandTotalValueGame1.Location = new System.Drawing.Point(0, 0);
             this.grandTotalValueGame1.Name = "grandTotalValueGame1";
             this.grandTotalValueGame1.Size = new System.Drawing.Size(16, 17);
@@ -1386,10 +1154,7 @@ namespace Yahtzee_UI
             // 
             this.grandTotalValueGame2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.grandTotalValueGame2.AutoSize = true;
-<<<<<<< HEAD
             this.grandTotalValueGame2.Font = new System.Drawing.Font("Raleway", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-=======
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.grandTotalValueGame2.Location = new System.Drawing.Point(0, 0);
             this.grandTotalValueGame2.Name = "grandTotalValueGame2";
             this.grandTotalValueGame2.Size = new System.Drawing.Size(16, 17);
@@ -1400,10 +1165,7 @@ namespace Yahtzee_UI
             // 
             this.grandTotalValueGame3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.grandTotalValueGame3.AutoSize = true;
-<<<<<<< HEAD
             this.grandTotalValueGame3.Font = new System.Drawing.Font("Raleway", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-=======
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.grandTotalValueGame3.Location = new System.Drawing.Point(0, 0);
             this.grandTotalValueGame3.Name = "grandTotalValueGame3";
             this.grandTotalValueGame3.Size = new System.Drawing.Size(16, 17);
@@ -1414,10 +1176,7 @@ namespace Yahtzee_UI
             // 
             this.grandTotalValueGame4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.grandTotalValueGame4.AutoSize = true;
-<<<<<<< HEAD
             this.grandTotalValueGame4.Font = new System.Drawing.Font("Raleway", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-=======
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.grandTotalValueGame4.Location = new System.Drawing.Point(0, 0);
             this.grandTotalValueGame4.Name = "grandTotalValueGame4";
             this.grandTotalValueGame4.Size = new System.Drawing.Size(16, 17);
@@ -1476,10 +1235,6 @@ namespace Yahtzee_UI
             this.acesValueGame1.Name = "acesValueGame1";
             this.acesValueGame1.Size = new System.Drawing.Size(16, 17);
             this.acesValueGame1.TabIndex = 2;
-<<<<<<< HEAD
-=======
-            this.acesValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // acesValueGame2
             // 
@@ -1489,10 +1244,6 @@ namespace Yahtzee_UI
             this.acesValueGame2.Name = "acesValueGame2";
             this.acesValueGame2.Size = new System.Drawing.Size(16, 17);
             this.acesValueGame2.TabIndex = 2;
-<<<<<<< HEAD
-=======
-            this.acesValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // acesValueGame3
             // 
@@ -1502,10 +1253,6 @@ namespace Yahtzee_UI
             this.acesValueGame3.Name = "acesValueGame3";
             this.acesValueGame3.Size = new System.Drawing.Size(16, 17);
             this.acesValueGame3.TabIndex = 2;
-<<<<<<< HEAD
-=======
-            this.acesValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // acesValueGame4
             // 
@@ -1515,10 +1262,6 @@ namespace Yahtzee_UI
             this.acesValueGame4.Name = "acesValueGame4";
             this.acesValueGame4.Size = new System.Drawing.Size(16, 17);
             this.acesValueGame4.TabIndex = 2;
-<<<<<<< HEAD
-=======
-            this.acesValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // twosValueGame1
             // 
@@ -1528,10 +1271,6 @@ namespace Yahtzee_UI
             this.twosValueGame1.Name = "twosValueGame1";
             this.twosValueGame1.Size = new System.Drawing.Size(16, 17);
             this.twosValueGame1.TabIndex = 3;
-<<<<<<< HEAD
-=======
-            this.twosValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // twosValueGame2
             // 
@@ -1541,10 +1280,6 @@ namespace Yahtzee_UI
             this.twosValueGame2.Name = "twosValueGame2";
             this.twosValueGame2.Size = new System.Drawing.Size(16, 17);
             this.twosValueGame2.TabIndex = 3;
-<<<<<<< HEAD
-=======
-            this.twosValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // twosValueGame3
             // 
@@ -1554,10 +1289,6 @@ namespace Yahtzee_UI
             this.twosValueGame3.Name = "twosValueGame3";
             this.twosValueGame3.Size = new System.Drawing.Size(16, 17);
             this.twosValueGame3.TabIndex = 3;
-<<<<<<< HEAD
-=======
-            this.twosValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // twosValueGame4
             // 
@@ -1567,10 +1298,6 @@ namespace Yahtzee_UI
             this.twosValueGame4.Name = "twosValueGame4";
             this.twosValueGame4.Size = new System.Drawing.Size(16, 17);
             this.twosValueGame4.TabIndex = 3;
-<<<<<<< HEAD
-=======
-            this.twosValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // threesValueGame1
             // 
@@ -1580,10 +1307,6 @@ namespace Yahtzee_UI
             this.threesValueGame1.Name = "threesValueGame1";
             this.threesValueGame1.Size = new System.Drawing.Size(16, 17);
             this.threesValueGame1.TabIndex = 8;
-<<<<<<< HEAD
-=======
-            this.threesValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // threesValueGame2
             // 
@@ -1593,10 +1316,6 @@ namespace Yahtzee_UI
             this.threesValueGame2.Name = "threesValueGame2";
             this.threesValueGame2.Size = new System.Drawing.Size(16, 17);
             this.threesValueGame2.TabIndex = 8;
-<<<<<<< HEAD
-=======
-            this.threesValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // threesValueGame3
             // 
@@ -1606,10 +1325,6 @@ namespace Yahtzee_UI
             this.threesValueGame3.Name = "threesValueGame3";
             this.threesValueGame3.Size = new System.Drawing.Size(16, 17);
             this.threesValueGame3.TabIndex = 8;
-<<<<<<< HEAD
-=======
-            this.threesValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // threesValueGame4
             // 
@@ -1619,10 +1334,6 @@ namespace Yahtzee_UI
             this.threesValueGame4.Name = "threesValueGame4";
             this.threesValueGame4.Size = new System.Drawing.Size(16, 17);
             this.threesValueGame4.TabIndex = 8;
-<<<<<<< HEAD
-=======
-            this.threesValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // foursValueGame1
             // 
@@ -1632,10 +1343,6 @@ namespace Yahtzee_UI
             this.foursValueGame1.Name = "foursValueGame1";
             this.foursValueGame1.Size = new System.Drawing.Size(16, 17);
             this.foursValueGame1.TabIndex = 9;
-<<<<<<< HEAD
-=======
-            this.foursValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // foursValueGame2
             // 
@@ -1645,10 +1352,6 @@ namespace Yahtzee_UI
             this.foursValueGame2.Name = "foursValueGame2";
             this.foursValueGame2.Size = new System.Drawing.Size(100, 23);
             this.foursValueGame2.TabIndex = 9;
-<<<<<<< HEAD
-=======
-            this.foursValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // foursValueGame3
             // 
@@ -1658,10 +1361,6 @@ namespace Yahtzee_UI
             this.foursValueGame3.Name = "foursValueGame3";
             this.foursValueGame3.Size = new System.Drawing.Size(16, 17);
             this.foursValueGame3.TabIndex = 9;
-<<<<<<< HEAD
-=======
-            this.foursValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // foursValueGame4
             // 
@@ -1671,10 +1370,6 @@ namespace Yahtzee_UI
             this.foursValueGame4.Name = "foursValueGame4";
             this.foursValueGame4.Size = new System.Drawing.Size(16, 17);
             this.foursValueGame4.TabIndex = 9;
-<<<<<<< HEAD
-=======
-            this.foursValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fivesValueGame1
             // 
@@ -1684,10 +1379,6 @@ namespace Yahtzee_UI
             this.fivesValueGame1.Name = "fivesValueGame1";
             this.fivesValueGame1.Size = new System.Drawing.Size(16, 17);
             this.fivesValueGame1.TabIndex = 10;
-<<<<<<< HEAD
-=======
-            this.fivesValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fivesValueGame2
             // 
@@ -1697,10 +1388,6 @@ namespace Yahtzee_UI
             this.fivesValueGame2.Name = "fivesValueGame2";
             this.fivesValueGame2.Size = new System.Drawing.Size(16, 17);
             this.fivesValueGame2.TabIndex = 10;
-<<<<<<< HEAD
-=======
-            this.fivesValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fivesValueGame3
             // 
@@ -1710,10 +1397,6 @@ namespace Yahtzee_UI
             this.fivesValueGame3.Name = "fivesValueGame3";
             this.fivesValueGame3.Size = new System.Drawing.Size(16, 17);
             this.fivesValueGame3.TabIndex = 10;
-<<<<<<< HEAD
-=======
-            this.fivesValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // fivesValueGame4
             // 
@@ -1723,10 +1406,6 @@ namespace Yahtzee_UI
             this.fivesValueGame4.Name = "fivesValueGame4";
             this.fivesValueGame4.Size = new System.Drawing.Size(16, 17);
             this.fivesValueGame4.TabIndex = 10;
-<<<<<<< HEAD
-=======
-            this.fivesValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // sixesValueGame1
             // 
@@ -1736,10 +1415,6 @@ namespace Yahtzee_UI
             this.sixesValueGame1.Name = "sixesValueGame1";
             this.sixesValueGame1.Size = new System.Drawing.Size(16, 17);
             this.sixesValueGame1.TabIndex = 11;
-<<<<<<< HEAD
-=======
-            this.sixesValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // sixesValueGame2
             // 
@@ -1749,10 +1424,6 @@ namespace Yahtzee_UI
             this.sixesValueGame2.Name = "sixesValueGame2";
             this.sixesValueGame2.Size = new System.Drawing.Size(16, 17);
             this.sixesValueGame2.TabIndex = 11;
-<<<<<<< HEAD
-=======
-            this.sixesValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // sixesValueGame3
             // 
@@ -1762,10 +1433,6 @@ namespace Yahtzee_UI
             this.sixesValueGame3.Name = "sixesValueGame3";
             this.sixesValueGame3.Size = new System.Drawing.Size(16, 17);
             this.sixesValueGame3.TabIndex = 11;
-<<<<<<< HEAD
-=======
-            this.sixesValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // sixesValueGame4
             // 
@@ -1775,10 +1442,6 @@ namespace Yahtzee_UI
             this.sixesValueGame4.Name = "sixesValueGame4";
             this.sixesValueGame4.Size = new System.Drawing.Size(16, 17);
             this.sixesValueGame4.TabIndex = 11;
-<<<<<<< HEAD
-=======
-            this.sixesValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // totalScoreValueGame1
             // 
@@ -1828,10 +1491,6 @@ namespace Yahtzee_UI
             this.bonusValueGame1.Name = "bonusValueGame1";
             this.bonusValueGame1.Size = new System.Drawing.Size(16, 17);
             this.bonusValueGame1.TabIndex = 16;
-<<<<<<< HEAD
-=======
-            this.bonusValueGame1.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // bonusValueGame2
             // 
@@ -1841,10 +1500,6 @@ namespace Yahtzee_UI
             this.bonusValueGame2.Name = "bonusValueGame2";
             this.bonusValueGame2.Size = new System.Drawing.Size(16, 17);
             this.bonusValueGame2.TabIndex = 16;
-<<<<<<< HEAD
-=======
-            this.bonusValueGame2.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // bonusValueGame3
             // 
@@ -1854,10 +1509,6 @@ namespace Yahtzee_UI
             this.bonusValueGame3.Name = "bonusValueGame3";
             this.bonusValueGame3.Size = new System.Drawing.Size(16, 17);
             this.bonusValueGame3.TabIndex = 16;
-<<<<<<< HEAD
-=======
-            this.bonusValueGame3.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // bonusValueGame4
             // 
@@ -1867,10 +1518,6 @@ namespace Yahtzee_UI
             this.bonusValueGame4.Name = "bonusValueGame4";
             this.bonusValueGame4.Size = new System.Drawing.Size(16, 17);
             this.bonusValueGame4.TabIndex = 16;
-<<<<<<< HEAD
-=======
-            this.bonusValueGame4.Text = "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // 
             // totalValueGame1
             // 
@@ -2116,7 +1763,6 @@ namespace Yahtzee_UI
             this.startButton.UseVisualStyleBackColor = true;
             this.startButton.Click += new System.EventHandler(this.startButton_Click);
             // 
-<<<<<<< HEAD
             // scoreButton
             // 
             this.scoreButton.Font = new System.Drawing.Font("Raleway", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2128,17 +1774,12 @@ namespace Yahtzee_UI
             this.scoreButton.UseVisualStyleBackColor = true;
             this.scoreButton.Click += new System.EventHandler(this.button1_Click_1);
             // 
-=======
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             // UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1223, 694);
-<<<<<<< HEAD
             this.Controls.Add(this.scoreButton);
-=======
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.nbGamesPanel);
             this.Controls.Add(this.gameCardPanel);
@@ -2146,10 +1787,7 @@ namespace Yahtzee_UI
             this.Controls.Add(this.actionPanel);
             this.Controls.Add(this.Gamecard);
             this.Controls.Add(this.title);
-<<<<<<< HEAD
             this.DoubleBuffered = true;
-=======
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UI";
@@ -2328,10 +1966,7 @@ namespace Yahtzee_UI
         private System.Windows.Forms.Panel nbGamesPanel;
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.PictureBox gameCardLoadPicture;
-<<<<<<< HEAD
         private System.Windows.Forms.Button scoreButton;
-=======
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
     }
 }
 

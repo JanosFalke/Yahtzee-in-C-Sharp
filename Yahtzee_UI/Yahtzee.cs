@@ -33,11 +33,7 @@ namespace Yahtzee_UI
                 return "" + value;
             }
 
-<<<<<<< HEAD
             return " ";
-=======
-            return "0";
->>>>>>> 84095410bbc3a390b40b92e64179822ada96c6f8
         }
     }
 }
