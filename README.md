@@ -1,4 +1,4 @@
-# Yahtzee in C and .NET#
+# Yahtzee in C# and .NET
 Yahtzee with an UI built with C# and .NET (2020)
 
 - [Explication](#explication)
